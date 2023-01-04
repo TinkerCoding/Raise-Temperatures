@@ -1,0 +1,10 @@
+/**
+ * @param {array} temperatures
+ */
+function raiseTemperatures(temperatures) {
+      return temperatures.map(function(temperature) {
+          return temperature + 5
+      })
+ }
+ 
+ 
